@@ -28,7 +28,6 @@ export function passHeaders(headers: string): any {
   if (!headers) {
     return parsed
   }
-  console.log(headers)
   headers.split('\r\n').forEach(line => {
     let [key, val] = line.split(':')
     key = key.trim().toLowerCase()
