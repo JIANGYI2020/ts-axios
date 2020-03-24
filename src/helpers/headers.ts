@@ -1,4 +1,4 @@
-import { isPlainObject } from './utils'
+import { isPlainObject } from './util'
 import Any = jasmine.Any
 
 function normalizeHeaderName(headers: any, normalizedName: string): void {
